@@ -1,5 +1,5 @@
 html{
-    background: url("matrix.png") no-repeat center center fixed;
+    background: url("matrixGif.gif") no-repeat center center fixed;
     background-size: cover;
     justify-content: center;
     align-items: center;
@@ -7,15 +7,15 @@ html{
 }
 
 h1{
-    color: rgb(221, 190, 221);
-    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(162, 187, 170);
+    background-color: rgba(9, 44, 23, 0.3);
     background-size: 1px;
     border-width: 5px;
     text-decoration: solid;     
     border-color: white;
     text-align: center;
     font-size: 3rem;
-    box-shadow: 2px 2px 2px rgb(43, 24, 41);
+    box-shadow: 2px 2px 2px rgb(11, 22, 6);
 }
 
 .fotos{
