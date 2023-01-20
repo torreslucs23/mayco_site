@@ -1,0 +1,45 @@
+html{
+    background-image: url("fundo.webp");
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color: rgb(221, 190, 221);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: 1px;
+    border-width: 5px;
+    text-decoration: solid;     
+    border-color: white;
+    text-align: center;
+    font-size: 3rem;
+    box-shadow: 2px 2px 2px rgb(43, 24, 41);
+}
+
+.fotos{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 100px 0px 100px;
+    justify-content: center;
+    
+}
+
+.foto_maycu{
+    width: 200px;
+    transition: all 0.5s;
+    padding-right: 100px;
+    
+    
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+.maycu-oculos{
+    width: 200px;
+    height: 200px;
+    padding-left: 100px;
+    transition: all 0.5s;
+
+}
