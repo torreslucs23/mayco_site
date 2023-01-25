@@ -11,11 +11,16 @@ h1{
     background-color: rgba(9, 44, 23, 0.3);
     background-size: 1px;
     border-width: 5px;
+
     text-decoration: solid;     
     border-color: white;
-    text-align: center;
+    text-align: left;
     font-size: 3rem;
     box-shadow: 2px 2px 2px rgb(11, 22, 6);
+}
+
+h1.text {
+    height: 54px;
 }
 
 .fotos{
@@ -34,7 +39,7 @@ h1{
     
 }
 img:hover{
-    transform: scale(1.1);
+    transform: scale(1.500);
 }
 
 .maycu-oculos{
